@@ -84,4 +84,30 @@ ul {
   header{
     background-color: #71d4fa;
   }
+      /*--------------------footer---------------------------------*/
+      .footer {
+        
+        padding: 6px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+      .footer1 a{
+        color: rgb(0, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+      }
+      footer a:hover{
+        background-color:rgb(57, 152, 230);
+      }
+      .footer1 img{
+        
+        height: 50px;
+        width: 50px;
+       
+      }
+      #footer{
+        margin-left: 70%;
+      }
       
+  
