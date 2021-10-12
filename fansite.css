@@ -39,7 +39,7 @@ margin:auto
 /*--------------------header---------------------------------*/
 body{
     margin: 0;
-    
+    background-image: url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/12/2fabdc4e-98ea-4b3e-bf30-77d668fa6061/1200x680_maxsportsworldtwo800986.jpg);
     
 }
 ul {
@@ -337,28 +337,55 @@ header{
   background-color: #3e8e41;
 }
       /*--------------------footer---------------------------------*/
-      .footer {
+      .footer {        
         
-        padding: 6px;
         background-color: white;
         font-family: 'Times New Roman', Times, serif;
-        
+        display: flex;
+        flex-direction: row;
+
       }
       .footer1 a{
         color: rgb(0, 255, 255);
         font-family: Georgia, 'Times New Roman', Times, serif;
-    
+        display: block;
+        color: rgb(29, 7, 7);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;        
       }
       footer a:hover{
         background-color:rgb(57, 152, 230);
       }
-      .footer1 img{
-        
+      .footer2 img{        
         height: 50px;
-        width: 50px;
-       
+        width: 50px; 
+        
+              
       }
       #footer{
         margin-left: 70%;
+        position: relative;
+        display: flex;
+        width: 70%;
+        z-index: 1;
       }
-      
+      #box{
+        display: flex;
+        flex-direction: row;
+      }
+#foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#all_footer{
+  display: flex;
+}
+#logofooter{
+  display: flex;
+  
+}
+#navfooter{
+  display: flex;
+}
