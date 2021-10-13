@@ -155,6 +155,9 @@ h2{
     height: 200px;
 }
 
+.hoov:hover{
+    color:orange;
+}
 
 /*----------------fin---------------------------------*/
 
@@ -180,6 +183,10 @@ td{
   }
   #table{
     justify-content: center;
+  }
+
+  #back-img{
+      background-image: url("https://www.footballclubdemarseille.fr/wp-content/uploads/2021/04/tifo-om-psg-franceschi.jpg");
   }
 
 /*--------------------fin-----------------------------------------*/
@@ -282,11 +289,14 @@ td{
     min-width: 180px;
     box-sizing: border-box;
     border: 2px solid #0097d7;
+    background-color: #0c71c3;
+    border-radius: 10px;
     padding: 12px 20px;
     text-decoration: none;
     text-align: center;
     font-style: italic;
     z-index:1;
+    color: white;
 }
 /*#vs{
     margin-right: 900px;
@@ -679,6 +689,10 @@ header{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown5:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.lien{
+    text-decoration: none;
 }
   /*--------------------footer---------------------------------*/
   .footer {        
